@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+    .adicamic {
+        position: relative;
+        background: #444;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1.2em;
+        letter-spacing: 0.1em;
+        padding: 10px 30px;
+        transition: 0.5s;
+        margin-top: 20px;
+    }
+
+    .adicamic:hover {
+        letter-spacing: 0.25em;
+        background: var(--clr);
+        box-shadow: 0 0 35px var(--clr);
+    }
+
+    .adicamic::before {
+        content: '';
+        position: absolute;
+        inset: 2px;
+        background: #27282c;
+    }
+
+    .adicamic span {
+        position: relative;
+        z-index: 1;
+    }
+
+    .adicamic i {
+        position: absolute;
+        inset: 0;
+        display: block;
+    }
+
+    .adicamic i::before {
+        content: '';
+        position: absolute;
+        top: -14px;
+        left: 80%;
+        width: 10px;
+        height: 5px;
+        border: 2px solid var(--clr);
+        background: #038920;
+        transform: translateX(-50%);
+        transition: 0.5s;
+    }
+
+    .adicamic:hover i::before {
+        width: 20px;
+        left: 20%;
+    }
+
+    .adicamic i::after {
+        content: '';
+        position: absolute;
+        bottom: -14px;
+        left: 20%;
+        width: 10px;
+        height: 5px;
+        border: 2px solid var(--clr);
+        background: #27282c;
+        transform: translateX(-50%);
+        transition: 0.5s;
+    }
+
+    .adicamic:hover i::after {
+        width: 20px;
+        left: 80%;
+    }

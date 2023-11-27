@@ -1,0 +1,25 @@
+
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #1e1e1e;
+} */
+.row{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container{
+    width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+} 
+
+/* my-1 px-1 w-1/3 md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 */
