@@ -90,7 +90,7 @@
                                         </g>
                                     </svg>
                                     </span>
-                                    <span class="ml-2 text-sm"style="font-family: 'Times New Roman', serif;"> Tus Catalogos </span>
+                                    <span class="ml-2 text-sm"style="font-family: 'Times New Roman', serif;"> Tus Trabajos </span>
                                 </a>
                             </div>
                         @endcan

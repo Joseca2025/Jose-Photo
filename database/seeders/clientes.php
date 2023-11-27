@@ -30,14 +30,14 @@ class clientes extends Seeder
 
         //////// 2 ///////////
         User::create([
-            'name' => 'Teo Montalvo',
-            'email' => 'cli1@gmail.com',
+            'name' => 'Jose Carlos Alarcon',
+            'email' => 'jose@gmail.com',
             'password' => bcrypt('12345678'),
             'idpaquete' => 1,
-            'telefono' => '78416500',
-            'dni' => '3203400',
-            'direccion' => 'Pampa de la isla Nro 719',
-            'fnacimiento' => Carbon::parse('1990-10-01')
+            'telefono' => '69027621',
+            'dni' => '9622096',
+            'direccion' => 'Urbanizacion Palma verde',
+            'fnacimiento' => Carbon::parse('2001-04-20')
         ])->assignRole('cliente');
 
         cliente::create([
@@ -53,14 +53,14 @@ class clientes extends Seeder
 
         //////// 3 ///////////
         User::create([
-            'name' => 'Cristina Soria',
-            'email' => 'cli2@gmail.com',
-            'password' => bcrypt('12345678'),
+            'name' => 'Maria Jose Romero',
+            'email' => 'maria@gmail.com',
+            'password' => bcrypt('00000000'),
             'idpaquete' => 1,
-            'telefono' => '78416501',
-            'dni' => '3203401',
-            'direccion' => 'Pampa de la isla Nro 800',
-            'fnacimiento' => Carbon::parse('1991-11-01')
+            'telefono' => '78585929',
+            'dni' => '9578467',
+            'direccion' => 'Urbanizacion el mundo',
+            'fnacimiento' => Carbon::parse('2000-01-25')
         ])->assignRole('cliente');
 
         cliente::create([
@@ -70,21 +70,21 @@ class clientes extends Seeder
         tarjeta_credito::create([
             'numero' => '1111111111111112',
             'fecha' => '12/32',
-            'cvc' => '123',
+            'cvc' => '122',
             'iduser' => 3
         ]);
 
         //////////// 4 ///////////////
 
         User::create([
-            'name' => 'Juan Bautista',
-            'email' => 'cli3@gmail.com',
-            'password' => bcrypt('12345678'),
+            'name' => 'Sergio Ortiz',
+            'email' => 'sergio@gmail.com',
+            'password' => bcrypt('11111111'),
             'idpaquete' => 1,
-            'telefono' => '78416502',
-            'dni' => '3203402',
-            'direccion' => 'Pampa de la isla Nro 709',
-            'fnacimiento' => Carbon::parse('1993-05-01')
+            'telefono' => '78000005',
+            'dni' => '3269743',
+            'direccion' => 'Condiminio bella vista',
+            'fnacimiento' => Carbon::parse('2000-08-06')
         ])->assignRole('cliente');
 
         cliente::create([
@@ -102,14 +102,14 @@ class clientes extends Seeder
         /////////// 5 ////////////////
 
         User::create([
-            'name' => 'Maria Lopez',
-            'email' => 'cli4@gmail.com',
-            'password' => bcrypt('12345678'),
+            'name' => 'Fernando Moreno',
+            'email' => 'fernando@gmail.com',
+            'password' => bcrypt('55555555'),
             'idpaquete' => 1,
-            'telefono' => '78416503',
-            'dni' => '3203403',
-            'direccion' => 'Pampa de la isla Nro 1019',
-            'fnacimiento' => Carbon::parse('1998-10-01')
+            'telefono' => '79999999',
+            'dni' => '3697444',
+            'direccion' => 'Colinas del Urubo',
+            'fnacimiento' => Carbon::parse('2002-09-24')
         ])->assignRole('cliente');
 
         cliente::create([

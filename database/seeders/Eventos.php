@@ -20,9 +20,9 @@ class Eventos extends Seeder
 
         evento::create([
             'idorganizador' => 1,
-            'nombre' => 'Fiesta en la Finca',
-            'direccion' => 'Los Lotes calle 2 Nro 15',
-            'fecha' => Carbon::parse('2022-10-01'),
+            'nombre' => 'Fiesta Proyecto x',
+            'direccion' => 'Urubo village',
+            'fecha' => Carbon::parse('2023-11-29'),
             'hora' => $date->toTimeString()
         ]);
 
@@ -30,9 +30,9 @@ class Eventos extends Seeder
 
         evento::create([
             'idorganizador' => 1,
-            'nombre' => 'Marathon Atlas',
-            'direccion' => 'Los matales calle 2 Nro 20',
-            'fecha' => Carbon::parse('2022-10-01'),
+            'nombre' => 'Carrera Pedreste de santa cruz',
+            'direccion' => 'La plaza 24 de septiembre',
+            'fecha' => Carbon::parse('2023-11-30'),
             'hora' => $date->toTimeString()
         ]);
 
@@ -46,17 +46,17 @@ class Eventos extends Seeder
 
         evento::create([
             'idorganizador' => 2,
-            'nombre' => 'Cumpleaños de Juana',
-            'direccion' => 'Las Lomas calle 2 Nro 15',
-            'fecha' => Carbon::parse('2022-10-01'),
+            'nombre' => 'Kermes solidaria por los bomberos',
+            'direccion' => 'Urbanizacion cotoca',
+            'fecha' => Carbon::parse('2023-12-05'),
             'hora' => $date->toTimeString()
         ]);
 
         evento::create([
             'idorganizador' => 3,
-            'nombre' => 'Campeonato UAGRM',
-            'direccion' => '2do anillo avenidad Bush',
-            'fecha' => Carbon::parse('2022-10-01'),
+            'nombre' => 'Peloteada campeonado',
+            'direccion' => 'Cuarto anillo virgen de cotoca',
+            'fecha' => Carbon::parse('2023-12-11'),
             'hora' => $date->toTimeString()
         ]);
 
@@ -68,36 +68,10 @@ class Eventos extends Seeder
             'hora' => $date->toTimeString()
         ]);
 
-        evento::create([
-            'idorganizador' => 4,
-            'nombre' => 'Feria del Libro',
-            'direccion' => 'Feria expocruz 3er anillo interno Av roca y coronado',
-            'fecha' => Carbon::parse('2022-10-01'),
-            'hora' => $date->toTimeString()
-        ]);
+       
 
-        evento::create([
-            'idorganizador' => 4,
-            'nombre' => 'Graduacion Col Jose Malky',
-            'direccion' => 'Av santos Dumont al lado del mercado ramafa',
-            'fecha' => Carbon::parse('2022-10-01'),
-            'hora' => $date->toTimeString()
-        ]);
+       
 
-        evento::create([
-            'idorganizador' => 5,
-            'nombre' => 'Feria del Pescado',
-            'direccion' => 'Mercado los bosques 5to anillo doble via a la guardia',
-            'fecha' => Carbon::parse('2022-10-01'),
-            'hora' => $date->toTimeString()
-        ]);
-
-        evento::create([
-            'idorganizador' => 5,
-            'nombre' => 'Cabildo',
-            'direccion' => '2do anillo av banzar',
-            'fecha' => Carbon::parse('2022-10-01'),
-            'hora' => $date->toTimeString()
-        ]);
+        
     }
 }

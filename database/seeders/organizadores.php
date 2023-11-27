@@ -18,13 +18,13 @@ class organizadores extends Seeder
     public function run()
     {
         User::create([
-            'name' => 'Belynes Siles',
+            'name' => 'Pedro Gonzales',
             'email' => 'orga1@gmail.com',
             'password' => bcrypt('12345678'),
             'idpaquete' => 3,
-            'telefono' => '18416500',
-            'dni' => '5003400',
-            'direccion' => 'Av Bush Nro 10',
+            'telefono' => '79317597',
+            'dni' => '8945201',
+            'direccion' => 'Condominio espiritu santo',
             'fnacimiento' => Carbon::parse('1999-02-18')
         ])->assignRole('organizador');
 
@@ -41,14 +41,14 @@ class organizadores extends Seeder
         ]);
 
         User::create([
-            'name' => 'Mario Lozano',
+            'name' => 'Trinidad Socorro Duran',
             'email' => 'orga2@gmail.com',
             'password' => bcrypt('12345678'),
             'idpaquete' => 3,
-            'telefono' => '18416511',
+            'telefono' => '785412',
             'dni' => '5003411',
-            'direccion' => 'Av Bush Nro 956',
-            'fnacimiento' => Carbon::parse('1997-08-12')
+            'direccion' => 'Barrio Polanco',
+            'fnacimiento' => Carbon::parse('1896-10-10')
         ])->assignRole('organizador');
 
         organizador::create([
@@ -64,14 +64,14 @@ class organizadores extends Seeder
         ]);
 
         User::create([
-            'name' => 'Micaela Roca',
+            'name' => 'Carlos Guillermo ALarcon',
             'email' => 'orga3@gmail.com',
             'password' => bcrypt('12345678'),
             'idpaquete' => 3,
-            'telefono' => '18416522',
-            'dni' => '5003422',
-            'direccion' => 'Av Bolivia calle 10',
-            'fnacimiento' => Carbon::parse('1987-09-29')
+            'telefono' => '78562147',
+            'dni' => '1010101',
+            'direccion' => 'Barrio polanco calle A',
+            'fnacimiento' => Carbon::parse('1980-05-15')
         ])->assignRole('organizador');
 
         organizador::create([
@@ -88,14 +88,14 @@ class organizadores extends Seeder
 
 
         User::create([
-            'name' => 'Miriam Quispe',
+            'name' => 'Mihaly Balazs',
             'email' => 'orga4@gmail.com',
             'password' => bcrypt('12345678'),
             'idpaquete' => 3,
-            'telefono' => '18416533',
-            'dni' => '5003433',
-            'direccion' => 'Av Bush calle 9',
-            'fnacimiento' => Carbon::parse('1978-02-20')
+            'telefono' => '75943012',
+            'dni' => '9540367',
+            'direccion' => 'Condominio villa burguese',
+            'fnacimiento' => Carbon::parse('2001-04-11')
         ])->assignRole('organizador');
 
         organizador::create([
@@ -111,14 +111,14 @@ class organizadores extends Seeder
         ]);
 
         User::create([
-            'name' => 'Bianca Romero',
+            'name' => 'Rodolfo menacho',
             'email' => 'orga5@gmail.com',
             'password' => bcrypt('12345678'),
             'idpaquete' => 3,
-            'telefono' => '18416544',
-            'dni' => '5003444',
-            'direccion' => 'Av Alemana calle 1',
-            'fnacimiento' => Carbon::parse('1969-08-18')
+            'telefono' => '78195038',
+            'dni' => '9999999',
+            'direccion' => 'Condiminio Tarope',
+            'fnacimiento' => Carbon::parse('2001-04-12')
         ])->assignRole('organizador');
 
         organizador::create([

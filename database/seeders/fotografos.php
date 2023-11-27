@@ -20,14 +20,14 @@ class fotografos extends Seeder
         
 
         User::create([
-            'name' => 'Fabiola Navia',
-            'email' => 'foto1@gmail.com',
-            'password' => bcrypt('12345678'),
+            'name' => 'Mariano Alarcon',
+            'email' => 'mariano@gmail.com',
+            'password' => bcrypt('22222222'),
             'idpaquete' => 2,
-            'telefono' => '68416504',
-            'dni' => '2003404',
-            'direccion' => 'Av Bush Nro 3019',
-            'fnacimiento' => Carbon::parse('1980-02-18')
+            'telefono' => '6800000',
+            'dni' => '2965743',
+            'direccion' => 'Canal cotoca',
+            'fnacimiento' => Carbon::parse('2002-10-02')
         ])->assignRole('fotografo');
 
         fotografo::create([
@@ -43,14 +43,14 @@ class fotografos extends Seeder
 
 
         User::create([
-            'name' => 'Marina Campos',
-            'email' => 'foto2@gmail.com',
+            'name' => 'Claudi Melgar',
+            'email' => 'claudia@gmail.com',
             'password' => bcrypt('12345678'),
             'idpaquete' => 2,
-            'telefono' => '68416505',
+            'telefono' => '68697454',
             'dni' => '2003405',
-            'direccion' => 'Av Bush Nro 3099',
-            'fnacimiento' => Carbon::parse('1985-02-18')
+            'direccion' => 'Plan tres mill',
+            'fnacimiento' => Carbon::parse('1956-01-5')
         ])->assignRole('fotografo');
 
         fotografo::create([
@@ -66,14 +66,14 @@ class fotografos extends Seeder
 
 
         User::create([
-            'name' => 'Julieta Arancibia',
-            'email' => 'foto3@gmail.com',
+            'name' => 'Hugo Del Pozo',
+            'email' => 'hugo@gmail.com',
             'password' => bcrypt('12345678'),
             'idpaquete' => 2,
             'telefono' => '68416506',
             'dni' => '2003406',
-            'direccion' => 'Av Bush Nro 2081',
-            'fnacimiento' => Carbon::parse('1988-02-18')
+            'direccion' => 'Roca coronado',
+            'fnacimiento' => Carbon::parse('1900-02-18')
         ])->assignRole('fotografo');
 
         fotografo::create([
@@ -88,14 +88,14 @@ class fotografos extends Seeder
         ]);
 
         User::create([
-            'name' => 'Jose Aguirre',
-            'email' => 'foto4@gmail.com',
+            'name' => 'Leonel Messi',
+            'email' => 'leo@gmail.com',
             'password' => bcrypt('12345678'),
             'idpaquete' => 2,
-            'telefono' => '68416507',
+            'telefono' => '61010101',
             'dni' => '2003407',
             'direccion' => 'Av Los Mangales Nro 89',
-            'fnacimiento' => Carbon::parse('1991-08-28')
+            'fnacimiento' => Carbon::parse('1910-10-10')
         ])->assignRole('fotografo');
 
         fotografo::create([
@@ -110,14 +110,14 @@ class fotografos extends Seeder
         ]);
 
         User::create([
-            'name' => 'Teresa Siles',
-            'email' => 'foto5@gmail.com',
+            'name' => 'Marcelo Martins',
+            'email' => 'marcelo@gmail.com',
             'password' => bcrypt('12345678'),
             'idpaquete' => 2,
-            'telefono' => '68416508',
+            'telefono' => '66898288',
             'dni' => '2003408',
-            'direccion' => 'Av Irala Nro 1019',
-            'fnacimiento' => Carbon::parse('1980-03-20')
+            'direccion' => 'Mundial de qatar',
+            'fnacimiento' => Carbon::parse('1975-06-27')
         ])->assignRole('fotografo');
 
         fotografo::create([
