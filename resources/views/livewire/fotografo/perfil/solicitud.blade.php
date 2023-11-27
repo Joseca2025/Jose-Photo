@@ -114,7 +114,7 @@
 <script>
     Livewire.on('crear-qr', () => {
         const evento = <?php echo json_encode($evento); ?>;
-        const resultado = new QRCode(contenedorQR, 'http://127.0.0.1:8000/Catalogo/porqr/' + evento.id);
+        const resultado = new QRCode(contenedorQR, 'http://18.191.234.61/Catalogo/porqr/' + evento.id);
         const canvas = document.querySelector('#contenedorQR canvas');
         var imagen = canvas.toDataURL();
         Livewire.emit('generarQr', imagen, evento.id);
